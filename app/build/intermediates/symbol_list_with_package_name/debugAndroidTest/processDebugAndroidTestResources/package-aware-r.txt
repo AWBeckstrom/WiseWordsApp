@@ -1,0 +1,3 @@
+com.example.quotesapp.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

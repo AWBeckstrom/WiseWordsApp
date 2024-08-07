@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id author_tv
+id main
+id next_btn
+id progress_bar
+id quote_tv
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Quotesapp
+style Theme.Quotesapp
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="28sp"
+     android:fontFamily="sans-serif-light"
+     android:layout_centerHorizontal="true"
+     android:textColor="#FF5722"
+     android:text="@string/app_name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="............"
+        tools:text="Here is where the quote will be displayed"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/quote_tv"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quote_tv"
+        tools:text="Author"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0E9B8E"
+        android:textStyle="italic"
+        android:id="@+id/author_tv"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:id="@+id/next_btn"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>
